@@ -1,0 +1,10 @@
+<?php
+/**
+ * .service file will include while pre_init func independ on request type (code of .service file will be executing every time ).
+ * Within this file is possible:
+ * - add logic which will execute at once while app is starts
+ * - add app event handlers
+ * - include app or plugin functions
+ * - include app or plugin autoloader/s
+ * - register event handler for add plugin menu to admin menu
+ */
